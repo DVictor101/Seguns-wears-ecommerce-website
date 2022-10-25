@@ -1,0 +1,137 @@
+/*font-family: 'Alkalami', serif;
+font-family: 'Bungee Spice', cursive;
+font-family: 'Inspiration', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Qwitcher Grypen', cursive;
+font-family: 'Roboto', sans-serif;*/
+#banner {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url("./Assets/b1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  width: 100%;
+}
+
+.banner_h3, .banner_h2 {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.banner_h2 {
+  font-size: 2.1rem;
+  font-weight: 700;
+  padding: 8px 0;
+}
+
+.banner_span {
+  color: red;
+}
+
+.aboutsection {
+  padding: 30px 50px;
+}
+
+.eachabout__box {
+  display: flex;
+}
+
+.aboutus__img {
+  width: 50%;
+  height: auto;
+}
+
+.img__aboutus {
+  width: 100%;
+}
+
+.aboutus__content {
+  width: 40%;
+  height: auto;
+  padding: 0 40px;
+}
+
+.aboutus__h2 {
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+
+.aboutus__span {
+  font-weight: 700;
+  font-size: 0.9rem;
+  font-family: "Roboto", Times, serif;
+  margin-bottom: 20px;
+}
+
+.aboutus__p {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 0.9rem;
+  font-family: "Roboto", Times, serif;
+  padding: 20px 0;
+}
+
+@media (max-width: 799px) {
+  .banner_h2 {
+    font-size: 2.6rem;
+    font-weight: 900;
+    padding: 14px 0;
+  }
+  .eachabout__box {
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutus__img {
+    width: 100%;
+    height: auto;
+  }
+  .aboutus__content {
+    width: 100%;
+    height: auto;
+  }
+  .aboutus__span {
+    font-size: 1.3rem;
+  }
+  .aboutus__p {
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 480px) {
+  .banner_h2 {
+    font-size: 2.6rem;
+    font-weight: 900;
+    padding: 14px 0;
+  }
+  .eachabout__box {
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutus__img {
+    width: 100%;
+    height: auto;
+  }
+  .aboutus__content {
+    width: 100%;
+    height: auto;
+  }
+  .aboutus__span {
+    font-size: 1.3rem;
+  }
+  .aboutus__p {
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 1.2rem;
+  }
+  .section-feature {
+    padding: 30px 100px;
+  }
+}/*# sourceMappingURL=aboutus.css.map */

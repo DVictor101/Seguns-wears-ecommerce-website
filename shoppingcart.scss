@@ -1,0 +1,148 @@
+.cart__table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  white-space: nowrap;
+}
+.cart {
+  padding: 30px 30px;
+}
+.cart_img {
+  width: 70%;
+}
+.carttd__link {
+  width: 100px;
+  text-align: left;
+  vertical-align: middle;
+}
+.carttd__shirt {
+  width: 250px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.carttd__img {
+  width: 150px;
+  text-align: left;
+  font-weight: 800;
+  vertical-align: middle;
+  padding: 10px 0;
+}
+.cart__input {
+  width: 70px;
+  padding: 10px 5px 10px 15px;
+}
+.cart__tbody {
+  font-weight: 800;
+  text-align: left;
+}
+.carthead__data {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 10px 0;
+}
+.lastcart__sec {
+  display: flex;
+
+  justify-content: space-between;
+  padding: 20px 30px;
+  flex-wrap: wrap;
+}
+.lastcart__divC {
+  width: 50%;
+  padding-bottom: 30px;
+}
+.lastcart__divC h3,
+.c-s3-h4 {
+  padding-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+}
+.couponsec__input {
+  padding: 10px 20px;
+  outline: none;
+  width: 60%;
+  margin-right: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+}
+.c-s-btn {
+  background-color: rgb(63, 63, 181);
+  color: white;
+  border: none;
+  padding: 12px 33px;
+}
+.c-s-btn:hover {
+  background-color: white;
+  color: rgb(63, 63, 181);
+}
+.c-s2-div {
+  width: 45%;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  margin-bottom: 30px;
+  padding: 20px;
+}
+.c-s2-div table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.c-s2-div table td {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+}
+.t-btn {
+  color: white;
+  background-color: rgb(68, 68, 158);
+  padding: 10px 50px;
+  border: none;
+}
+.t-btn:hover {
+  color: rgb(68, 68, 158);
+  background-color: white;
+  box-shadow: 1px 1px 12px rgb(68, 68, 158);
+}
+//RESPONSIVE STYLING STARTS HERE
+@media (max-width: 799px) {
+  .cart {
+    overflow-x: auto;
+    padding: 30px 10px;
+  }
+
+  .lastcart__sec {
+    padding: 20px 30px;
+  }
+  .lastcart__divC {
+    width: 100%;
+  }
+  .c-s-btn {
+    margin-top: 20px;
+  }
+  .c-s2-div {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .cart {
+    overflow-x: auto;
+    padding: 30px 10px;
+  }
+  .cart__table {
+    width: 700px;
+  }
+  .lastcart__sec {
+    padding: 20px 30px;
+  }
+  .lastcart__divC {
+    width: 100%;
+  }
+  .c-s-btn {
+    margin-top: 20px;
+  }
+  .c-s2-div {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
